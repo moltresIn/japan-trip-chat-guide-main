@@ -5,6 +5,10 @@ import { toast } from "sonner";
 import ChatInterface from "@/components/ChatInterface";
 import TravelHeader from "@/components/TravelHeader";
 import VisualPanel from "@/components/VisualPanel";
+import MariCar from "../../public/images/1.jpg";
+import Traditional from "../../public/images/2.jpg";
+import TeamLab from "../../public/images/3.jpg";
+import Bamboo from "../../public/images/4.jpg";
 
 // Sample data for our chat flow
 const chatSteps = [
@@ -116,8 +120,7 @@ const initialActivities = [
     location: "Shibuya, Tokyo",
     description:
       "Race through the streets of Tokyo in costume on this unique go-karting adventure. See iconic landmarks from a thrilling perspective!",
-    image:
-      "https://images.unsplash.com/photo-1566139884330-f03bebb4264a?auto=format&fit=crop&q=80",
+    image: MariCar,
     tags: ["Adventure", "Urban", "Unique"],
     day: 1,
   },
@@ -127,8 +130,7 @@ const initialActivities = [
     location: "Gion, Kyoto",
     description:
       "Experience the art of Japanese tea ceremony in a historic teahouse in Kyoto's most beautiful geisha district.",
-    image:
-      "https://images.unsplash.com/photo-1576086776736-4da2ad40337d?auto=format&fit=crop&q=80",
+    image: Traditional,
     tags: ["Cultural", "Historic", "Serene"],
     day: 3,
   },
@@ -141,8 +143,7 @@ const secondaryActivities = [
     location: "Toyosu, Tokyo",
     description:
       "Immerse yourself in this digital art museum where art and your body have no boundaries. Walk through water, touch floating flowers, and become one with art.",
-    image:
-      "https://images.unsplash.com/photo-1605030753481-bb38b08c384a?auto=format&fit=crop&q=80",
+    image: TeamLab,
     tags: ["Art", "Modern", "Immersive"],
     day: 2,
   },
@@ -152,8 +153,7 @@ const secondaryActivities = [
     location: "Arashiyama, Kyoto",
     description:
       "Wander through the enchanting bamboo forest and visit the adjacent monkey park for stunning views of Kyoto and up-close encounters with Japanese macaques.",
-    image:
-      "https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?auto=format&fit=crop&q=80",
+    image: Bamboo,
     tags: ["Nature", "Scenic", "Wildlife"],
     day: 4,
   },
