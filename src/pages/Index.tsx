@@ -5,10 +5,10 @@ import { toast } from "sonner";
 import ChatInterface from "@/components/ChatInterface";
 import TravelHeader from "@/components/TravelHeader";
 import VisualPanel from "@/components/VisualPanel";
-import MariCar from "../../public/images/1.jpg";
-import Traditional from "../../public/images/2.jpg";
-import TeamLab from "../../public/images/3.jpg";
-import Bamboo from "../../public/images/4.jpg";
+import MariCar from "../images/1.jpg";
+import Traditional from "../images/2.jpg";
+import TeamLab from "../images/3.jpg";
+import Bamboo from "../images/4.jpg";
 
 // Sample data for our chat flow
 const chatSteps = [
